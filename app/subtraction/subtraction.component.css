@@ -1,0 +1,47 @@
+P{
+    text-align: center;
+    font-size: xx-large;
+    font-size: 40px;
+    font-style: italic;
+}
+H1{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+body{
+    background-image: url("sub.jpg");
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;  
+}
+P{
+    font-size: small;
+}
+.box{
+    width: 750px;
+    height:700px;
+    margin:60px auto 0;
+    background: rgba(0,0,0,0.6);
+    text-align: center;
+    padding: 50px;
+    background-color:transparent;
+}
+.Addbox{
+    text-align:end;
+}
+H2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 40px;
+}
+H5{
+    text-align:right;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+

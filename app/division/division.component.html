@@ -1,0 +1,28 @@
+<body><br><br><form><div class="box">
+    <br><h1><h2>Division!</h2>
+        <div class="input">
+            <label>A:</label>
+            <input type="number" name="A" [(ngModel)]="A">
+        </div><br>
+        <div class="input">
+            <label>B:</label>
+            <input type="number" name="B" [(ngModel)]="B">
+        </div>
+        <div [formGroup]="add"> 
+            <div class="Addbox"><button (click)="addNewField()">+</button></div>
+        <div *ngFor="let addfield of form.get('field').controls;let i=index"[formGroup]="addfield">  
+            <div>
+                C:<input type="number" formControlName="field" name="C" [(ngModel)]="C">
+            </div><br>
+            <button (click)="deleteAddressGroup(i)">Delete</button>
+        </div></div><br>
+        <button (click)="Division()">Divide<div class="space"></div></button><br><br>
+Result=<b>{{Result}}</b><br><br>
+<h6><nav><button class="back">
+    <a routerLink=""> ← Back</a>
+</button></nav></h6>
+</h1></div></form>
+<h5><nav><button class="login">
+    <a routerLink="/login"> logout </a>
+</button></nav></h5>
+</body>
